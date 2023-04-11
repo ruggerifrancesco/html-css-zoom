@@ -20,4 +20,18 @@
 /* General Tags */
 body {
     font-family: 'DM Sans', sans-serif;
+    background-color: var(--color-black);
 }
+
+.flex {
+    display: flex;
+}
+
+/* Header Section */
+
+/* Main Section */
+.main-content {
+    
+}
+/* Footer Section */
+
