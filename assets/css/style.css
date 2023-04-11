@@ -115,7 +115,7 @@ height: 3.5vh;
 
 .btn-dropdown {
     align-items: center;
-    gap: 1rem;
+    gap: 0.6rem;
 }
     .btn-dropdown > i {
         font-size: 0.8rem;
