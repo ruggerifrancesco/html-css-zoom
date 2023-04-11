@@ -21,6 +21,7 @@
 body {
     font-family: 'DM Sans', sans-serif;
     background-color: var(--color-black);
+    color: var(--color-white);
 }
 
 .flex {
@@ -40,6 +41,15 @@ height: 3.5vh;
 /* Main Section */
 .main-content {
 height: calc(100vh - 12.5vh);
+width: calc(100% / 7);
+}
+
+.user-camera-container {
+    background: var(--color-white) 
+    url(https://picsum.photos/350/200)
+    no-repeat center;
+    width: 350px;
+    height: 200px;
 }
 
 /* Footer Section */
