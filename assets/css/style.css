@@ -50,6 +50,7 @@ height: 3.5vh;
 
 .main-wrapper {
     flex-wrap: wrap;
+    justify-content: space-around;
     overflow: scroll;
     width: 100%;
 }
@@ -58,9 +59,10 @@ height: 3.5vh;
     background: var(--color-white) 
     url(https://picsum.photos/350/200)
     no-repeat center;
-    width: calc(100% / 7);
+    width: calc(95% / 7);
     height: 150px;
     position: relative;
+    min-width: calc(250px);
 }
 
 .user-info {
