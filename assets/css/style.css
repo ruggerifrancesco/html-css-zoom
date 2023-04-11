@@ -84,16 +84,31 @@ height: 3.5vh;
     height: 100%;
 }
 
+.btn-section-self {
+    justify-content: flex-start;
+}
+
+.btn-section-meet {
+    justify-content: center;
+}
+
+.btn-section-ending {
+    justify-content: flex-end;
+}
+
+
 .btn-section-self,
 .btn-section-meet {
-    gap: 1rem;
+    gap: 1.6rem;
 }
     .btn-item > i{
-        font-size: 2rem;
+        font-size: 1.5rem;
+        cursor: pointer;
     }
     .btn-section-self,
     .btn-section-ending {
         flex: 1 1 20%;
+        padding: 0 1rem ;
     }
     .btn-section-meet {
         flex: 2 1 60%; 
@@ -103,6 +118,11 @@ height: 3.5vh;
     flex-direction: column;
     align-items: center;
 }
+    .btn-label {
+        margin-top: 0.5rem;
+        font-weight: 200;
+        font-size: small;
+    }
     #btn-share{
         color: var(--screen-share);
     }
