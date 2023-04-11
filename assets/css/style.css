@@ -41,7 +41,7 @@ body {
 
 /* Header Section */
 .header {
-    height: 3.5vh;
+    height: 40px;
 }
 
 .head-wrapper {
@@ -63,7 +63,7 @@ body {
 
 /* Main Section */
 .main-content {
-    height: calc(100vh - 12vh);
+    height: calc(100vh - (80px + 40px));
 }
 
 .main-wrapper {
@@ -93,7 +93,7 @@ body {
 
 /* Footer Section */
 .footer-nav {
-    height: 8.5vh;
+    height: 80px;
     background-color: var(--color-grey);
 }
 
