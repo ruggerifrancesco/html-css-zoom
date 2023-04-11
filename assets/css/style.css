@@ -27,11 +27,22 @@ body {
     display: flex;
 }
 
+    /* TO-DO REMOVE AFTER */
+    .border-temp {
+        border: 1px dashed red;
+    }
+
 /* Header Section */
+.header {
+height: 3.5vh;
+}
 
 /* Main Section */
 .main-content {
-    
+height: calc(100vh - 12.5vh);
 }
-/* Footer Section */
 
+/* Footer Section */
+.footer-nav {
+height: 9vh;
+}
