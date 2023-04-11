@@ -59,8 +59,9 @@ overflow: scroll;
     background: var(--color-white) 
     url(https://picsum.photos/350/200)
     no-repeat center;
-    width: 245px;
+    width: calc(100% / 7);
     height: 150px;
+    position: relative;
 }
 
 /* Footer Section */
