@@ -75,13 +75,29 @@ height: 3.5vh;
 
 /* Footer Section */
 .footer-nav {
-height: 8.5vh;
-background-color: var(--color-grey);
+    height: 8.5vh;
+    background-color: var(--color-grey);
 }
 
 .navigation-bar {
-    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
+
+.btn-section-self,
+.btn-section-meet {
+    gap: 1rem;
+}
+    .btn-item > i{
+        font-size: 2rem;
+    }
+    .btn-section-self,
+    .btn-section-ending {
+        flex: 1 1 20%;
+    }
+    .btn-section-meet {
+        flex: 2 1 60%; 
+    }
 
 .btn-item {
     flex-direction: column;
