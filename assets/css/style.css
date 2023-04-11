@@ -103,7 +103,6 @@ height: 3.5vh;
 }
     .btn-item > i{
         font-size: 1.5rem;
-        cursor: pointer;
     }
     .btn-section-self,
     .btn-section-ending {
@@ -112,6 +111,14 @@ height: 3.5vh;
     }
     .btn-section-meet {
         flex: 2 1 60%; 
+    }
+
+.btn-dropdown {
+    align-items: center;
+    gap: 1rem;
+}
+    .btn-dropdown > i {
+        font-size: 0.8rem;
     }
 
 .btn-item {
@@ -126,3 +133,7 @@ height: 3.5vh;
     #btn-share{
         color: var(--screen-share);
     }
+
+.btn-item,.btn-dropdown,.btn-section-ending {
+    cursor: pointer;
+}
