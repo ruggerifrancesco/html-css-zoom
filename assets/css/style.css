@@ -54,6 +54,7 @@ height: 3.5vh;
     justify-content: center;
     gap: 0.35rem;
     overflow: scroll;
+    padding: 2rem 0;
 }
 
 .user-camera-container {
@@ -61,7 +62,7 @@ height: 3.5vh;
     url(https://picsum.photos/350/200)
     no-repeat center;
     width: calc(95% / 7);
-    height: 150px;
+    height: 140px;
     position: relative;
     min-width: calc(250px);
 }
