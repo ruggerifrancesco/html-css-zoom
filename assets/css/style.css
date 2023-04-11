@@ -45,12 +45,12 @@ height: 3.5vh;
 
 /* Main Section */
 .main-content {
-height: calc(100vh - 12.5vh);
-overflow: scroll;
+    height: calc(100vh - 12.5vh);
 }
 
 .main-wrapper {
     flex-wrap: wrap;
+    overflow: scroll;
     justify-content: space-between;
     width: 100%;
 }
@@ -62,6 +62,13 @@ overflow: scroll;
     width: calc(100% / 7);
     height: 150px;
     position: relative;
+}
+
+.user-info {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    background-color: rgba(128,128,128, 0.7);
 }
 
 /* Footer Section */
