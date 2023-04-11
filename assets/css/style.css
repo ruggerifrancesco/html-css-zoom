@@ -100,6 +100,7 @@ body {
 }
 
 .navigation-bar {
+    justify-content: space-between;
     align-items: center;
     height: 100%;
 }
@@ -113,7 +114,12 @@ body {
 }
 
 .btn-section-ending {
-    justify-content: flex-end;
+    color: red;
+    height: 100%;
+    background-color: rgb(74, 73, 73);
+    align-items: center;
+    font-weight: 300;
+    font-size: medium;
 }
 
 
@@ -126,11 +132,7 @@ body {
     }
     .btn-section-self,
     .btn-section-ending {
-        flex: 1 1 20%;
         padding: 0 1rem ;
-    }
-    .btn-section-meet {
-        flex: 2 1 60%; 
     }
 
 .btn-dropdown {
