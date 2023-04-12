@@ -32,11 +32,6 @@ body {
     margin: 0 auto;
 }
 
-    /* TO-DO REMOVE AFTER */
-    .border-temp {
-        border: 1px dashed red;
-    }
-
 /* Header Section */
 .header {
     height: 40px;
@@ -73,13 +68,17 @@ body {
 
 .user-camera-container {
     background: var(--color-white) 
-    url(https://picsum.photos/350/200)
     no-repeat center;
     width: calc(95% / 7);
     height: 150px;
     position: relative;
     min-width: calc(250px);
 }
+    .user-camera-container  > img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
 
 .user-info {
     position: absolute;
