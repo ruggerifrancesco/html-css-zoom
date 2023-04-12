@@ -77,7 +77,7 @@ body {
     url(https://picsum.photos/350/200)
     no-repeat center;
     width: calc(95% / 7);
-    height: 140px;
+    height: 150px;
     position: relative;
     min-width: calc(250px);
 }
