@@ -69,7 +69,6 @@ body {
 .user-camera-container {
     background: var(--color-white);
     width: calc(95% / 7);
-    height: 150px;
     position: relative;
     min-width: calc(250px);
 }
